@@ -1,4 +1,4 @@
-const Currencyrow = (props: CurrencyRowProps) => {
+const Currencyrow = ({ currencyOptions, selectCurrency, amount, onChangeAmount, handlechange }) => {
     return (
         <div>
             <input type="number" className="input" value={amount} onChange={onChangeAmount} />
